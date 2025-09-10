@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECTS</title>
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img-20220929T213902Z-001/img/favicon.png">
+</head>
+<body >
+    <header>
+        <nav>
+            <h1 id="logo">ASEM HAIJ</h1> 
+            <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" tabindex="0">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><img src="moon.png" id="icon" alt="Toggle dark/light mode" style="width:32px;cursor:pointer;" title="Toggle dark/light mode"></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="title">my projects</h2>
+
+<main>
+        <div class="button-container">
+            <button class="filter-btn" data-category="all">all</button>
+            <button class="filter-btn" data-category="Web Development">web</button>
+            <button class="filter-btn" data-category="Python Programming">python</button>
+            <button class="filter-btn" data-category="Data Analysis">data analysis</button>
+        </div>
+    <div class="projects-container">
+        <!-- Project items will be dynamically inserted here -->
+    </div>
+    </main>
+    <footer>
+    <a href="https://www.linkedin.com/in/asem-haij-9797562a8" target="_blank" class="linkedin" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/ProfASEM" target="_blank" class="github" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+        <div class="copyright">
+           <p>Prof.ASEM HAIJ <strong id="year"></strong> <span>&copy</span> </p>
+        </div>
+    </footer>
+<script src="projects.js"></script>    
+</body>
+</html>
