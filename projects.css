@@ -397,6 +397,9 @@ footer .copyright{
 }
 
 @media (max-width: 480px) {
+  nav ul{
+    width: 40vw;
+  }
   .projects-container {
     grid-template-columns: 1fr;
     padding: 2px;

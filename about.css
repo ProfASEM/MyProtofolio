@@ -172,6 +172,9 @@ body {
 }
 
 @media (max-width: 480px) {
+    nav ul{
+    width: 40vw;
+  }
     .container {
         padding: 2px;
         font-size: 12px;

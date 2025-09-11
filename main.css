@@ -153,6 +153,9 @@ body {
 }
 
 @media (max-width: 480px) {
+  nav ul{
+    width: 40vw;
+  }
 
   #logo {
     font-size: 18px;
@@ -274,7 +277,7 @@ main{
     animation: fadeInLeft 3.0s ease-in-out;
 }
 
-/* From Uiverse.io by gharsh11032000 */ 
+ 
 .animated-button {
   position: relative;
   display: flex;
@@ -355,10 +358,6 @@ main{
   fill: var(--primary-color);
 }
 
-/* .animated-button:active {
-  scale: 0.95;
-  box-shadow: 0 0 0 4px greenyellow;
-} */
 
 .animated-button:hover .circle {
   width: 220px;
