@@ -56,15 +56,19 @@ document.addEventListener('DOMContentLoaded', function () {
     // Project filtering logic
     // Define your project data here (replace with your real data)
     const menu = [
-        { title: 'Project 1', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'Description', link: '#' },
-        { title: 'Project 2', category: 'Data Analysis', img: 'DA.png', desc: 'Description', link: '#' },
-        { title: 'Project 3', category: 'Mathematics', img: 'math.webp', desc: 'Description', link: '#' },
-        { title: 'Project 4', category: 'Python', img: 'python-removebg-preview.png', desc: 'Description', link: '#' },
+        { title: 'Scroll Page', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'Scroll page responsive', link: 'https://github.com/ProfASEM/ScrollPage' },
+        { title: 'Menu', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'Resturaunt menu EN/AR<br> versions responsive page', link: 'https://github.com/ProfASEM/menu' },
+        { title: 'Prime Numbers', category: 'Python', img: 'python-removebg-preview.png', desc: 'a project that finds<br> the prime numbers between<br>1 and the number has <br>entered by user ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/primeNumber.py' },
+        { title: 'Factoriel', category: 'Python', img: 'python-removebg-preview.png', desc: 'basic project that<br> calculates the factoriel<br> of a positive integer ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/Factoriyel.py' },
         { title: 'Project 5', category: 'Data Analysis', img: 'DA.png', desc: 'Description', link: '#' },
-        { title: 'Project 6', category: 'Python', img: 'python-removebg-preview.png', desc: 'Description', link: '#' },
-        { title: 'Project 7', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'Description', link: '#' },
+        { title: 'Fibonacci <br> & <br> Lucas numbers', category: 'Python', img: 'python-removebg-preview.png', desc: 'basic project that <br>evaluates any <br>fibonacci or lucas number ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/Fib%26Luc.py' },
+        { title: 'Random Poem', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'If you get bored of lorem,<br> this project can generate<br> a random poem depends <br> how paragrafs you set it', link: 'https://github.com/ProfASEM/Random-poem' },
         { title: 'Project 8', category: 'Mathematics', img: 'math.webp', desc: 'Description', link: '#' },
-        { title: 'Project 9', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'Description', link: '#' },
+        { title: 'Home Page<br> Online Shopping', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'a simple home page<br> of online shopping<br> of a product', link: 'https://github.com/ProfASEM/HomePage-Online-Shopping' },
+        { title: 'Project 10', category: 'Data Analysis', img: 'DA.png', desc: 'Description', link: '#' },
+        { title: 'Permutations<br>&<br>Combination', category: 'Python', img: 'python-removebg-preview.png', desc: 'a project that evaluates<br> permutation &<br> combination ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/Perm%26Comb.py' },
+        { title: 'Vectors', category: 'Python', img: 'python-removebg-preview.png', desc: 'a project about vectors', link: 'https://github.com/ProfASEM/mini_projects/blob/main/vectors.py' },
+        { title: 'General Questions', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'a page of general questions<br> with collapse property<br> with dark-light mode', link: 'https://github.com/ProfASEM/General-Quistions'},
         // Add more projects as needed
     ];
 

@@ -252,7 +252,7 @@ main{
 
 .project img{
     width: 100%;
-    height: 200px;
+    height: 230px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -310,31 +310,40 @@ footer a:hover{
     transition: color 0.3s ease-in-out;
 }
 /* Underline effect for LinkedIn icon on hover */
+footer {
+  position: relative;
+  height: 120px;
+}
+
+footer a {
+  position: relative;
+  /* existing styles */
+}
+
+/* Underline effect for LinkedIn icon on hover */
 footer a.linkedin:hover::after {
-    content: "";
-    display: block;
-    width: 28px;
-    height: 2px;
-    background: var(--secondary-color-dark);
-    position: absolute;
-    bottom: 20px; /* Adjusts vertical position under the icon */
-    left: 0;      /* Aligns underline with the LinkedIn icon */
-    animation: fadeInDown 0.5s ease-in-out;
-        z-index: 10;
+  content: "";
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: var(--secondary-color-dark);
+  position: absolute;
+  bottom: 0px; /* places underline just below the icon */
+  animation: fadeInDown 0.5s ease-in-out;
+  z-index: 10;
 }
 
 /* Underline effect for GitHub icon on hover */
 footer a.github:hover::after {
-    content: "";
-    display: block;
-    width: 28px;
-    height: 2px;
-    background: var(--secondary-color-dark);
-    position: absolute;
-    bottom: 20px; /* Adjusts vertical position under the icon */
-    left: 46px;   /* Aligns underline with the GitHub icon (adjust as needed) */
-    animation: fadeInDown 0.5s ease-in-out;
-        z-index: 10;
+  content: "";
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: var(--secondary-color-dark);
+  position: absolute;
+  bottom: 0px; /* places underline just below the icon */
+  animation: fadeInDown 0.5s ease-in-out;
+  z-index: 10;
 }
 footer .copyright{
     color: var(--secondary-color);
