@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="img-20220929T213902Z-001/img/favicon.png">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav>
+      <h1 id="logo">ASEM HAIJ</h1>
+      <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="nav-menu">
+        <li><a href="main.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+          <img src="moon.png" id="icon" alt="Toggle dark/light mode" style="width:32px;cursor:pointer;" title="Toggle dark/light mode">
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <section class="container">
+    <!-- Left Side: Contact Form & Social Links -->
+    <div class="left-side">
+      <div class="left-side-up">
+        <form class="contact-form" method="POST">
+          <h2>Contact Us</h2>
+          <div class="input-container">
+            <input type="text" name="name" placeholder="Full Name" required class="inp" />
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" placeholder="Email" required class="inp" />
+          </div>
+          <div class="input-container">
+            <textarea name="message" class="inp" placeholder="Your Message" required></textarea>
+          </div>
+          <button class="animated-button" type="submit">
+            <!-- Animated Send Button -->
+            <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+            </svg>
+            <span class="text">Send</span>
+            <span class="circle"></span>
+            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+            </svg>
+          </button>
+          <!-- Hidden fields for redirect and captcha -->
+          <input type="hidden" name="_next" value="https://asemhaij.github.io/">
+          <input type="hidden" name="_captcha" value="false">
+        </form>
+      </div>
+      <div class="left-side-down">
+        <h2 style="text-transform: capitalize;">or keep in touch with us:</h2>
+        <ul class="social-links">
+          <li>
+            <a href="https://wa.link/n63ih2" target="_blank" class="whatsup">
+              <i class="fa-brands fa-whatsapp"></i> +90 552 664 52 84
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/asem-haij-9797562a8" target="_blank" class="linkedin">
+              <i class="fa-brands fa-linkedin"></i> ASEM HAIJ
+            </a>
+          </li>
+          <li>
+            <a class="mail"><i class="fa-solid fa-envelope"></i> contact@asemhaij.com</a>
+          </li>
+          <li>
+            <a href="https://github.com/ProfASEM" target="_blank" class="github">
+              <i class="fa-brands fa-github"></i> ProfAsem
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right Side: Profile Image & Info -->
+    <div class="right-side">
+      <img src="my_personal_picture-removebg-preview.png" alt="ASEM HAIJ personal picture">
+      <h1>ASEM HAIJ</h1>
+      <p>Mathematician || Front-End developer || Data Analyst || Python programmer</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="copyright">
+      <p>Prof.ASEM HAIJ <strong id="year"></strong> <span>&copy;</span></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="contact.js"></script>
+</body>
+</html>
