@@ -12,8 +12,11 @@ A personal portfolio website showcasing my work, projects, and contact info. Bui
 | `about.html`           | About me section/page.                                                 |
 | `projects.html`        | Showcase of projects with images and descriptions.                      |
 | `contact.html`         | Contact section or page with form or contact details.                  |
-| `*.css`                | Stylesheets for each page (main.css, about.css, projects.css, etc.).    |
-| `*.js`                 | JavaScript files for interactive behavior on respective pages.           |
+| `blogs.html`           | Blog section/page for portfolio articles or posts.                     |
+| `*.css`                | Stylesheets for each page (main.css, about.css, projects.css, blogs.css, etc.). |
+| `*.js`                 | JavaScript files for interactive behavior on respective pages (including blogs.js). |
+| `blogs.css`            | Stylesheet for the blog section/page.                                  |
+| `blogs.js`             | JavaScript for interactivity on the blog section/page.                 |
 | Images (`.png`, `.jpg`, `.webp`) | Portfolio images, personal photo, header backgrounds, icons etc. |
 
 ---
@@ -30,7 +33,7 @@ A personal portfolio website showcasing my work, projects, and contact info. Bui
 ## 🎯 Features
 
 - Clean and modern design.  
-- Separate pages: Home, About, Projects, Contact.  
+- Separate pages: Home, About, Projects, Contact, Blog.  
 - Use of visual media (images, backgrounds) to make portfolio more engaging.  
 - Interactive behaviors possibly via JS (e.g. menu toggles, smooth scrolling, etc.).  
 
@@ -41,3 +44,4 @@ A personal portfolio website showcasing my work, projects, and contact info. Bui
 1. Clone the repository:  
    ```bash
    git clone https://github.com/ProfASEM/MyProtofolio.git
+   ```
