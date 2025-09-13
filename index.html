@@ -1,13 +1,83 @@
+<!-- Main Personal Website Page: Includes navigation, dark/light mode, animated button, and responsive design -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <!-- Responsive and compatibility meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>My Personal Website</title>
+  <!-- Main stylesheet for the homepage -->
+  <link rel="stylesheet" href="main.css">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Animate.css for simple animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Google Fonts: Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="img-20220929T213902Z-001/img/favicon.png">
 </head>
-<body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is the homepage for my GitHub Pages.</p>
-    <p>Here you can find my projects and contact information.</p>
+<body >
+    <!-- Header and Navigation Bar -->
+    <header>
+      <nav>
+        <h1 id="logo">ASEM HAIJ</h1> 
+        <!-- Hamburger menu for mobile -->
+        <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" tabindex="0">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul id="nav-menu">
+          <li><a href="main.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <!-- Dark/Light mode toggle icon -->
+          <li><img src="moon.png" id="icon" alt="Toggle dark/light mode" style="width:32px;cursor:pointer;" title="Toggle dark/light mode"></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main Content: Personal Info and Download CV Button -->
+    <main>
+        <section class="info">
+            <h1>I'm<span> ASEM</span></h1>
+            <p>A dedicated mathematician, data analyst, and programmer,<br>
+                specializing in pattern recognition and the development of smart, data-driven solution
+            </p>
+            <!-- Animated Download CV Button -->
+            <button class="animated-button">
+              <!-- Arrow SVG (right) -->
+              <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text"><a style="text-decoration: none; color: inherit;" href="C:\Users\asemh\Desktop\Asem Haij CV.docx">Download my CV</a></span>
+              <span class="circle"></span>
+              <!-- Arrow SVG (left) -->
+              <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
+        </section>
+    </main>
+  
+  <!-- Footer with social links and copyright -->
+  <footer>
+    <a href="https://www.linkedin.com/in/asem-haij-9797562a8" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/ProfASEM" target="_blank" class="github"><i class="fa-brands fa-github"></i></a>
+    <div class="copyright">
+       <p>Prof.ASEM HAIJ <strong id="year"></strong> <span>&copy</span> </p>
+    </div>
+  </footer>
+<!-- Main JavaScript for homepage -->
+<script src="main.js"></script>
 </body>
 </html>
