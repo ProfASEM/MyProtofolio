@@ -10,21 +10,21 @@ document.addEventListener('DOMContentLoaded', function () {
     const body = document.body;
     if (localStorage.getItem('theme') === 'light') {
         body.classList.remove('dark-theme');
-        icon.src = 'moon.png';
+        icon.src = '../images/moon.png';
         icon.title = 'Switch to dark mode';
     } else {
         body.classList.add('dark-theme');
-        icon.src = 'sun.png';
+        icon.src = '../images/sun.png';
         icon.title = 'Switch to light mode';
     }
     icon.onclick = function () {
         body.classList.toggle('dark-theme');
         if (body.classList.contains('dark-theme')) {
-            icon.src = 'sun.png';
+            icon.src = '../images/sun.png';
             icon.title = 'Switch to light mode';
             localStorage.setItem('theme', 'dark');
         } else {
-            icon.src = 'moon.png';
+            icon.src = '../images/moon.png';
             icon.title = 'Switch to dark mode';
             localStorage.setItem('theme', 'light');
         }
@@ -115,7 +115,7 @@ function displayMenuItems(menuItems) {
     let displayMenu = menuItems.map(function (item) {
         return `<div class="project">
             <div class="project-image">
-                <img src="${item.img}" alt="${item.title}">
+                <img src="../images/${item.img}" alt="${item.title}">
             </div>
             <div class="project-info">
                 <h3>${item.title}</h3>
