@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { title: 'Vectors', category: 'Python', img: 'python-removebg-preview.png', desc: 'a project about vectors', link: 'https://github.com/ProfASEM/mini_projects/blob/main/vectors.py' },
         { title: 'General Questions', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'A page of general questions<br> with collapse property<br> with dark-light mode', link: 'https://github.com/ProfASEM/General-Quistions'},
         { title: 'Financial Analysis', category: 'Data Analysis', img: 'DA.png', desc: 'This is a financial analysis of performance of most effective sectors in Saudi Arabia 2019-2024', link: 'https://github.com/ProfASEM/Financial-Analysis' },
+        { title: 'MENA Healthcare Efficiency & Outcomes', category: 'Data Analysis', img: 'DA.png', desc: 'Consulting-style healthcare efficiency analysis across MENA using Python and Power BI.', link: 'https://github.com/ProfASEM/MENA-Healthcare-Efficiency---Outcomes' },
 
         // Add more projects as needed
     ];
