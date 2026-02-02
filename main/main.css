@@ -273,7 +273,7 @@ main{
     color: var(--secondary-color);
     line-height: 22px;
     font-size: 20px;
-    text-transform: capitalize;
+    
     animation: fadeInLeft 3.0s ease-in-out;
 }
 

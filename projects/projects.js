@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const body = document.body;
     if (localStorage.getItem('theme') === 'light') {
         body.classList.remove('dark-theme');
-        icon.src = '../images/moon.png';
+        icon.src = '../images/2408610.png';
         icon.title = 'Switch to dark mode';
     } else {
         body.classList.add('dark-theme');
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
             icon.title = 'Switch to light mode';
             localStorage.setItem('theme', 'dark');
         } else {
-            icon.src = '../images/moon.png';
+            icon.src = '../images/2408610.png';
             icon.title = 'Switch to dark mode';
             localStorage.setItem('theme', 'light');
         }
@@ -56,21 +56,23 @@ document.addEventListener('DOMContentLoaded', function () {
     // Project filtering logic
     // Define your project data here (replace with your real data)
     const menu = [
-        { title: 'Scroll Page', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'Responsive Scroll Page', link: 'https://github.com/ProfASEM/ScrollPage' },
-        { title: 'Menu', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'Resturaunt menu EN/AR<br> versions responsive page', link: 'https://github.com/ProfASEM/menu' },
-        { title: 'Prime Numbers', category: 'Python', img: 'python-removebg-preview.png', desc: 'A project that finds<br> the prime numbers between<br>1 and the number has <br>entered by user ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/primeNumber.py' },
-        { title: 'Factoriel', category: 'Python', img: 'python-removebg-preview.png', desc: 'Basic project that<br> calculates the factoriel<br> of a positive integer ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/Factoriyel.py' },
-        { title: 'Car Sales Analysis', category: 'Data Analysis', img: 'DA.png', desc: 'This is an Excel Sheets that provides an analysis of car sales from 2008 to 2012 and contains some visualizations', link: 'https://github.com/ProfASEM/Car-Sales-Analysis' },
-        { title: 'Fibonacci <br> & <br> Lucas numbers', category: 'Python', img: 'python-removebg-preview.png', desc: 'Basic project that <br>evaluates any <br>fibonacci or lucas number ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/Fib%26Luc.py' },
-        { title: 'Random Poem', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'If you get bored of lorem,<br> this project can generate<br> a random poem depends <br> how paragrafs you set it', link: 'https://github.com/ProfASEM/Random-poem' },
-        { title: 'World Analysis', category: 'Data Analysis', img: 'DA.png', desc: 'This is the Analysis of world population, languages, economy..etc', link: 'https://github.com/ProfASEM/world-analysis' },
-        { title: 'Home Page<br> Online Shopping', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'A simple home page<br> of online shopping<br> of a product', link: 'https://github.com/ProfASEM/HomePage-Online-Shopping' },
-        { title: 'E Commerce Analysis', category: 'Data Analysis', img: 'DA.png', desc: 'This is an analysis of perfomance of one of e commerce stores in 2023 supported by ML model to classify the customers to clusters', link: 'https://github.com/ProfASEM/e-commerce-analysis' },
-        { title: 'Permutations<br>&<br>Combination', category: 'Python', img: 'python-removebg-preview.png', desc: 'A project that evaluates<br> permutation &<br> combination ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/Perm%26Comb.py' },
-        { title: 'Vectors', category: 'Python', img: 'python-removebg-preview.png', desc: 'a project about vectors', link: 'https://github.com/ProfASEM/mini_projects/blob/main/vectors.py' },
-        { title: 'General Questions', category: 'Web Development', img: 'web-removebg-preview.png', desc: 'A page of general questions<br> with collapse property<br> with dark-light mode', link: 'https://github.com/ProfASEM/General-Quistions'},
-        { title: 'Financial Analysis', category: 'Data Analysis', img: 'DA.png', desc: 'This is a financial analysis of performance of most effective sectors in Saudi Arabia 2019-2024', link: 'https://github.com/ProfASEM/Financial-Analysis' },
-        { title: 'MENA Healthcare Efficiency & Outcomes', category: 'Data Analysis', img: 'DA.png', desc: 'Consulting-style healthcare efficiency analysis across MENA using Python and Power BI.', link: 'https://github.com/ProfASEM/MENA-Healthcare-Efficiency---Outcomes' },
+        { title: 'Financial Saudi Market Analysis', category: 'Data Analysis', img: 'statistics_2758772.png', desc: 'This is a financial analysis of performance of most effective sectors in Saudi Arabia 2019-2024', link: 'https://github.com/ProfASEM/financial-saudi-market-analysis' },
+        { title: 'MENA Healthcare Efficiency & Outcomes', category: 'Data Analysis', img: 'statistics_2758772.png', desc: 'Consulting-style healthcare efficiency analysis across MENA using Python and Power BI.', link: 'https://github.com/ProfASEM/mena-healthcare-efficiency' },
+        { title: 'Urban Living Efficiency', category: 'Data Analysis', img: 'statistics_2758772.png', desc: 'Data-driven analysis of urban living efficiency across MENA cities using Numbeo data (2025).', link: 'https://github.com/ProfASEM/urban-living-efficiency' },
+        { title: 'Car Sales Analysis', category: 'Data Analysis', img: 'statistics_2758772.png', desc: 'A full Business Intelligence case study combining Excel preprocessing, data modeling, KPIs, and interactive dashboards.', link: 'https://github.com/ProfASEM/car-sales-analysis' },
+        { title: 'World Data Analysis', category: 'Data Analysis', img: 'statistics_2758772.png', desc: 'Explored global datasets covering population, economy, and demographics to uncover cross-country patterns.<br>Used data visualization and analytical techniques to compare regions and highlight key global insights.', link: 'https://github.com/ProfASEM/world-data-analysis' },
+        { title: 'E Commerce Analysis', category: 'Data Analysis', img: 'statistics_2758772.png', desc: 'Analyzed e-commerce sales and customer behavior data to evaluate business performance.<br>Applied customer segmentation techniques to identify purchasing patterns and support data-driven decisions.', link: 'https://github.com/ProfASEM/e-commerce-analysis' },
+        { title: 'Scroll Page', category: 'Web Development', img: 'www_16328568.png', desc: 'Responsive Scroll Page', link: 'https://github.com/ProfASEM/scrollpage' },
+        { title: 'Menu Page', category: 'Web Development', img: 'www_16328568.png', desc: 'Resturaunt menu EN/AR<br> versions responsive page', link: 'https://github.com/ProfASEM/menu' },
+        { title: 'Prime Numbers', category: 'Python', img: 'python_5968350.png', desc: 'A project that finds<br> the prime numbers between<br>1 and the number has <br>entered by user ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/primeNumber.py' },
+        { title: 'Factoriel', category: 'Python', img: 'python_5968350.png', desc: 'Basic project that<br> calculates the factoriel<br> of a positive integer ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/Factoriyel.py' },
+        { title: 'Fibonacci <br> & <br> Lucas numbers', category: 'Python', img: 'python_5968350.png', desc: 'Basic project that <br>evaluates any <br>fibonacci or lucas number ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/Fib%26Luc.py' },
+        { title: 'Random Poem Page', category: 'Web Development', img: 'www_16328568.png', desc: 'If you get bored of lorem,<br> this project can generate<br> a random poem depends <br> how paragrafs you set it', link: 'https://github.com/ProfASEM/random-poem-page' },
+        { title: 'Home Page<br> Online Shopping', category: 'Web Development', img: 'www_16328568.png', desc: 'A simple home page<br> of online shopping<br> of a product', link: 'https://github.com/ProfASEM/homepage-online-shopping' },
+        { title: 'Permutations<br>&<br>Combination', category: 'Python', img: 'python_5968350.png', desc: 'A project that evaluates<br> permutation &<br> combination ', link: 'https://github.com/ProfASEM/mini_projects/blob/main/Perm%26Comb.py' },
+        { title: 'Vectors', category: 'Python', img: 'python_5968350.png', desc: 'a project about vectors', link: 'https://github.com/ProfASEM/mini_projects/blob/main/vectors.py' },
+        { title: 'General Questions Page', category: 'Web Development', img: 'www_16328568.png', desc: 'A page of general questions<br> with collapse property<br> with dark-light mode', link: 'https://github.com/ProfASEM/general-questions-page'},
+
 
         // Add more projects as needed
     ];

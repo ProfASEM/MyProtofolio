@@ -8,7 +8,7 @@ const body = document.body;
 
 if (localStorage.getItem('theme') === 'light') {
 	body.classList.remove('dark-theme');
-	icon.src = '../images/moon.png';
+	icon.src = '../images/2408610.png';
 	icon.title = 'Switch to dark mode';
 } else {
 	body.classList.add('dark-theme');
@@ -23,7 +23,7 @@ icon.onclick = function () {
 		icon.title = 'Switch to light mode';
 		localStorage.setItem('theme', 'dark');
 	} else {
-		icon.src = '../images/moon.png';
+		icon.src = '../images/2408610.png';
 		icon.title = 'Switch to dark mode';
 		localStorage.setItem('theme', 'light');
 	}
